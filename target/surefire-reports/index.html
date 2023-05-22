@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,7 +109,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with correct username and password2&quot;, &quot;Optional[LoginFeature2]&quot;)">runScenario("Login with correct username and password2", "Optional[LoginFeature2]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with correct username and password&quot;, &quot;Optional[LoginFeature]&quot;)">runScenario("Login with correct username and password", "Optional[LoginFeature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with correct username and password to fail2&quot;, &quot;Optional[LoginFeature2]&quot;)">runScenario("Login with correct username and password to fail2", "Optional[LoginFeature2]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -142,10 +152,30 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Login with correct username and password2&quot;, &quot;Optional[LoginFeature2]&quot;)">
+                  </a> <!-- runScenario("Login with correct username and password2", "Optional[LoginFeature2]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with correct username and password2", "Optional[LoginFeature2]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Login with correct username and password&quot;, &quot;Optional[LoginFeature]&quot;)">
                   </a> <!-- runScenario("Login with correct username and password", "Optional[LoginFeature]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login with correct username and password", "Optional[LoginFeature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with correct username and password to fail2&quot;, &quot;Optional[LoginFeature2]&quot;)">
+                  </a> <!-- runScenario("Login with correct username and password to fail2", "Optional[LoginFeature2]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with correct username and password to fail2", "Optional[LoginFeature2]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -155,7 +185,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/karthikkk/seleniumbasic/SeleniumWithCucucumber/src/test/java/testng.xml</span>
+            <span class="header-content">/Users/kanthreddy/check_jenkins/Selenium_GitHubActions/src/test/java/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -215,20 +245,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.TestRunner')
-data.setCell(0, 3, 3560);
+data.setCell(0, 3, 4262);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runner.TestRunner')
-data.setCell(1, 3, 2627);
+data.setCell(1, 3, 3945);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.TestRunner')
+data.setCell(2, 3, 3756);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.TestRunner')
+data.setCell(3, 3, 3286);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -261,15 +299,23 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with correct username and password", "Optional[LoginFeature]")</span>
-                <span class="method-start">98 ms</span>
+                <span class="method-start">193 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login with correct username and password to fail", "Optional[LoginFeature]")</span>
-                <span class="method-start">3658 ms</span>
+                <span class="method-start">4139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with correct username and password2", "Optional[LoginFeature2]")</span>
+                <span class="method-start">7895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with correct username and password to fail2", "Optional[LoginFeature2]")</span>
+                <span class="method-start">11181 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">6286 ms</span>
+                <span class="method-start">15444 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
